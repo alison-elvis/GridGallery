@@ -1,23 +1,28 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Galeria de Imagens de Animais</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <main class="grid-container">
-    <figure><img src="img/image1.jpg" alt=""></figure>
-    <figure><img src="img/image2.jpg" alt=""></figure>
-    <figure><img src="img/image3.jpg" alt=""></figure>
-    <figure><img src="img/image4.jpg" alt=""></figure>
-    <figure><img src="img/image5.jpg" alt=""></figure>
-    <figure><img src="img/image6.jpg" alt=""></figure>
-    <figure><img src="img/image7.jpg" alt=""></figure>
-    <figure><img src="img/image8.jpg" alt=""></figure>
-    <figure><img src="img/image9.jpg" alt=""></figure>
-  </main>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Galeria de Imagens de Animais</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <main class="grid-container">
+            <figure><img src="img/image1.jpg" alt="" loading="lazy" /></figure>
+            <figure><img src="img/image2.jpg" alt="" loading="lazy" /></figure>
+            <figure><img src="img/image3.jpg" alt="" loading="lazy" /></figure>
+            <figure><img src="img/image4.jpg" alt="" loading="lazy" /></figure>
+            <figure><img src="img/image5.jpg" alt="" loading="lazy" /></figure>
+            <figure><img src="img/image6.jpg" alt="" loading="lazy" /></figure>
+            <figure><img src="img/image7.jpg" alt="" loading="lazy" /></figure>
+            <figure><img src="img/image8.jpg" alt="" loading="lazy" /></figure>
+            <figure><img src="img/image9.jpg" alt="" loading="lazy" /></figure>
+        </main>
+        <dialog id="dialog-imagem">
+            <img id="imagem-dialog" src="" alt="" />
+            <button id="fechar-dialog">Fechar</button>
+        </dialog>
+        <script src="script.js"></script>
+    </body>
 </html>
